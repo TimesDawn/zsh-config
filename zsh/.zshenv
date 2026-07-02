@@ -9,7 +9,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 # ---------- EDITOR -----------
 # Default editor used by git, crontab, etc.
 export EDITOR="nvim"
-ecport VISUAL="nvim"
+export VISUAL="nvim"
 
 # ---------- PATH -----------
 # Personal binaries/scripts
