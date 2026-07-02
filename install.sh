@@ -2,7 +2,8 @@
 
 echo "Starting zsh installation & configuration..."
 
-sudo pacman -S zsh fzf fd ripgrep eza zinit bat starship curl jq --needed
+sudo pacman -S zsh fzf fd ripgrep eza bat starship curl jq --needed
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 sudo curl -O --output-dir /etc/zsh https://raw.githubusercontent.com/TimesDawn/zsh-config/refs/heads/main/zshenv
 
