@@ -10,15 +10,15 @@ if [[ ! -d "$HOME/.config/zsh" ]]; then
   mkdir -p "$HOME/.config/zsh"
 fi
 
-if [[ ! -d "$HOME/.cache/zsh"]]; then
+if [[ ! -d "$HOME/.cache/zsh" ]]; then
   mkdir -p "$HOME/.cache/zsh"
 fi
 
-if [[ ! -d "$HOME/.local/share/zsh"]]; then
+if [[ ! -d "$HOME/.local/share/zsh" ]]; then
   mkdir -p "$HOME/.local/share/zsh"
 fi
 
-if [[ ! -d "$HOME/.local/state/zsh"]]; then
+if [[ ! -d "$HOME/.local/state/zsh" ]]; then
   mkdir -p "$HOME/.local/state/zsh" 
 fi
 
