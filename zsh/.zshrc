@@ -66,9 +66,6 @@ source "$ZDOTDIR/aliases.zsh"
 # custom keybindings
 source "$ZDOTDIR/bindings.zsh"
 
-# plugins
-source "$ZDOTDIR/plugins.zsh"
-
 # Prompt & Theme
 source "$ZDOTDIR/prompt.zsh"
 
@@ -95,3 +92,7 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
+
+
+# plugins
+source "$ZDOTDIR/plugins.zsh"
